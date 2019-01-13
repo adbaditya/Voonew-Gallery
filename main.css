@@ -1,0 +1,34 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+h1{
+  text-align: center;
+}
+p{
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  display: inline;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1.25em;
+  background: rgba(0,0,0,0.5);
+  padding: 0px 7px px 7px;
+  margin: 0px 4px 0px 4px;
+}
